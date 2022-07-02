@@ -1,4 +1,166 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+.bx {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: #E5E7EB;
+}
+
 .hero-image img{
     width: 500px;
     height: 350px;
+}
+
+.navbar,
+.footer,
+.hero {
+    background-color: #1F2937;
+        color: #fff;
+    font-family: 'Roboto', arial;
+}
+
+.hero-cta h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-cta p,
+.header-link,
+.sign-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: left;
+
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-cta {
+    padding-right: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+}
+
+.hero {
+    display: flex;
+    padding-top: 50px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-info {
+        display: flex;
+        flex-wrap: wrap;
+        
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+    font-size: 25px;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-text {
+    padding-left: 100px;
+}
+
+.sign-text,
+.sign-button {
+    flex: 1;
+}
+
+.sign-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signs-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    text-align: left;
 }
